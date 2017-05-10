@@ -116,6 +116,9 @@ th, td {
 	border-bottom: 3px solid #ddd;
 	text-align: left;
 }
+body {
+	margin: 0px;
+}
 #banner
 {
 	background-color: #62A5D7;
@@ -175,8 +178,12 @@ a:active {
 
 #content
 {
+	background-image: url(../images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 1px;
 	padding-bottom: 25px;
+	padding-left: 5px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 14px;
 }
