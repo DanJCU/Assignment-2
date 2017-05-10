@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/masterstyle.css" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet"> 
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="content" -->
+<div id="banner">CossiePlay</div>
+<div class="container">
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about_us.html">About Us</a></li>
+        <li><a href="../products.html">Products</a></li>
+        <li><a href="../party.html">Party</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+<div id="content"><h1>Heading</h1>Main Body
+</div>
+<div id="footer">Copyright 2017</div>
+<!-- TemplateEndEditable -->
+</body>
+</html>
