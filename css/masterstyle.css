@@ -64,6 +64,8 @@ ul.dashed > li:before {
     content: "-";
     margin-left: -15px;
 }
+
+/*images*/
 img {
     border-radius: 4px;
 	margin-left: 10px;
@@ -101,24 +103,36 @@ img.gallerylandscape {
 	margin-left: 70px;
 	height: 400px;
 }
-table {
+
+/*tables*/
+table.table1 {
 	border-collapse: collapse;
 	margin-left: 20px;
+	margin-top: -30px;
+	font-size: 20px;
 }
-th.costume {
-	width: 260px;
+th.product1 {
+	font-weight: normal;
 }
-th.size, th.price {
-  width: 60px;
-}
-th, td {
+table.table1 th, td {
 	padding: 15px;
+	padding-left: 120px;
 	border-bottom: 3px solid #ddd;
 	text-align: left;
+	width: 260px;
 }
+td.alignright {
+	text-align: right;
+}
+table.table2 th, td {
+	text-align: left;
+}
+
+
 body {
 	margin: 0px;
 }
+
 #banner
 {
 	background-color: #62A5D7;
@@ -183,7 +197,7 @@ a:active {
 	background-size: cover;
 	padding-top: 1px;
 	padding-bottom: 25px;
-	padding-left: 5px;
+	padding-left: 25px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 14px;
 }
