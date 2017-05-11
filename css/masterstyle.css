@@ -105,29 +105,34 @@ img.gallerylandscape {
 }
 
 /*tables*/
-table.table1 {
+.table1 {
 	border-collapse: collapse;
 	margin-left: 20px;
 	margin-top: -30px;
 	font-size: 20px;
 }
-th.product1 {
-	font-weight: normal;
-}
-table.table1 th, td {
+.table1 th, td {
 	padding: 15px;
 	padding-left: 120px;
-	border-bottom: 3px solid #ddd;
+	border-bottom: 3px solid #BEBEBE;
 	text-align: left;
 	width: 260px;
+}
+.table2 {
+	width: 800px;
 }
 td.alignright {
 	text-align: right;
 }
-table.table2 th, td {
-	text-align: left;
+th.product1 {
+	font-weight: normal;
 }
-
+td.fresh {
+	padding-left: 170px;
+}
+td.fresh2 {
+	padding-left: 150px;
+}
 
 body {
 	margin: 0px;
