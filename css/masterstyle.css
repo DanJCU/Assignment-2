@@ -31,11 +31,11 @@ mark.aqua {
 span.caption {
 	font-size: 12px;
 }
+span.picturedesc {
+	font-size: 14px;
+}
 span.large {
 	font-size: 16px;
-}
-span.largecossieplay {
-	font-size:17px;
 }
 span.larger {
 	font-size: 18px;
@@ -105,33 +105,121 @@ img.gallerylandscape {
 }
 
 /*tables*/
-.table1 {
+table {
 	border-collapse: collapse;
-	margin-left: 20px;
+	table-layout: fixed;
+}
+
+/*products page*/
+.products {
+	border-collapse: collapse;
+	margin-left: 70px;
 	margin-top: -30px;
 	font-size: 20px;
 }
-.table1 th, td {
+.products th{
 	padding: 15px;
 	padding-left: 120px;
 	border-bottom: 3px solid #BEBEBE;
 	text-align: left;
 	width: 260px;
 }
-.table2 {
-	width: 800px;
+.products td {
+	padding: 15px;
+	padding-left: 120px;
+	border-bottom: 3px solid #BEBEBE;
+	text-align: left;
+	width: 260px;
 }
+
 td.alignright {
 	text-align: right;
 }
 th.product1 {
 	font-weight: normal;
 }
-td.fresh {
-	padding-left: 170px;
+/*product detail pages*/
+table.detail {
+	margin-left: 20px;
 }
-td.fresh2 {
-	padding-left: 150px;
+table.detail th {
+	border-bottom: 3px solid #A0C6D5;
+	border-top: 3px solid #A0C6D5;
+	border-left: 3px solid #A0C6D5;
+	border-right: 3px solid #A0C6D5;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+table.detail td {
+	border-bottom: 3px solid #A0C6D5;
+	border-top: 3px solid #A0C6D5;
+	border-left: 3px solid #A0C6D5;
+	border-right: 3px solid #A0C6D5;
+}
+th.name {
+	width: 130px;
+}
+th.description {
+	width: 540px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #A0C6D5;
+	font-size: 15px;
+}
+th.picture {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+td.detail1 {
+	text-align: center;
+}
+td.detail2 {
+	width: 540px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+td.detail3 {
+	padding-left: 40px;
+	padding-right: 140px;
+}
+th.name {
+	width: 100px;
+}
+/*-*/
+th.namea {
+	width: 100px;
+}
+td.detail1a {
+	text-align: center;
+	width: 100px;
+}
+th.descriptiona {
+	width: 400px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #A0C6D5;
+	font-size: 15px;
+}
+td.detail2a {
+	width: 400px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+td.detail3a {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+}
+ul {
+    list-style-image: url(../images/bulletfish.png);
+}
+
+/*class registration form*/
+table.crform td {
+	padding: 5px;
 }
 
 body {
