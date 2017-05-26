@@ -52,6 +52,10 @@ span.floatright {
 span.alignright {
 	text-align: right;
 }
+span.upcomingevents {
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+}
 ul.dashed {
     list-style: none;
     padding-left: 0;
