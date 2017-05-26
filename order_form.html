@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="css/masterstyle.css" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet"> 
+</head>
+
+<body>
+<div id="banner">
+	<img src="images/Fishtastic Logo.png" width="100">
+	<h7><i>Fish~tastic</i></h7>
+</div>
+<div class="container">
+</div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="expansions.html">Expansions</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+<div id="content">
+  
+  <br>
+         <form>
+          <table width="985" border="1">
+      <tbody><tr>
+        <th width="265" scope="row">NAME:</th>
+        <td width="704"><label for="NAME2"></label>
+          <span id="sprytextfield7">
+          <label for="NAME3"></label>
+          <input name="NAME" type="text" required id="NAME3" autocomplete="off" value="" size="50">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">ADDRESS:</th>
+        <td><label for="ADDRESS"></label>
+          <span id="sprytextfield6">
+          <label for="ADDRESS"></label>
+          <span class="textfieldRequiredMsg"></span></span><label for="NAME"></label>
+          <span id="sprytextfield10">
+          <label for="Address"></label>
+          <input name="Address" type="text" required id="Address" autocomplete="off" value="" size="70">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">CITY:</th>
+        <td><label for="CITY"></label>
+          <span id="sprytextfield5">
+          <label for="CITY"></label>
+          <input name="CITY" type="text" required id="CITY" autocomplete="off" size="30" maxlength="30">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">STATE:</th>
+        <td><label for="STATE"></label>
+          <span id="sprytextfield4">
+          <label for="STATE"></label>
+          <input name="STATE" type="text" id="STATE" size="30" maxlength="30" autocomplete="off">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">POSTAL CODE:</th>
+        <td><label for="POSTAL CODE"></label>
+          <span id="sprytextfield3">
+          <label for="POSTAL CODE"></label>
+          <input name="POSTAL CODE" type="text" required id="POSTAL CODE" autocomplete="off" size="15" maxlength="6">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">CONTACT NO.:</th>
+        <td><label for="CONTACT NUMBER"></label>
+          <span id="sprytextfield2">
+          <label for="CONTACT NUMBER"></label>
+          <input name="CONTACT NUMBER" type="text" id="CONTACT NUMBER" size="20" maxlength="8" autocomplete="off">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">EMAIL:</th>
+        <td><label for="EMAIL"></label>
+          <span id="sprytextfield1">
+          <label for="EMAIL"></label>
+          <input name="EMAIL" type="text" required id="EMAIL" autocomplete="off" size="40">
+          <span class="textfieldRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">ITEM CODE:</th>
+        <td><label for="ITEM CODE"></label>
+          <span id="spryselect2">
+          <label for="ITEM CODE"></label>
+          <select name="ITEMCODE" required id="ITEMCODE" onchange="myCalc()">
+            <option value="680">T01</option>
+            <option value="349">T02</option>
+            <option value="39.99">T03</option>
+            <option value="18.99">T04</option>
+            <option value="6.5">B01</option>
+            <option value="11.99">B02</option>
+            <option value="2.99">B03</option>
+            <option value="43">M01</option>
+            <option value="1.99">M02</option>
+            <option value="8.99">M03</option>
+            <option value="17.99">D01</option>
+            <option value="3">D02</option>
+            <option value="14.99">D03</option>
+          </select>
+          <span class="selectRequiredMsg"></span></span></td>
+        </tr>
+      <tr>
+        <th scope="row">QUANTITY:</th>
+        <td><select name="QUANTITY" required id="QUANTITY" onchange="myCalc()">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+      </tr>
+      <tr>
+        <th scope="row">TOTAL:</th>
+        <td><label for="TOTAL"></label>
+          <input type="text" name="TOTAL" id="TOTAL"></td>
+      </tr>
+      <tr>
+        <th scope="row">PAYMENT METHOD:</th>
+        <td><span id="spryradio1">
+          <label>
+           <l> <input type="radio" name="PAYMENT METHOD" value="MASTER" id="PAYMENT METHOD_0">MASTER CARD</l><input type="radio" name="PAYMENT METHOD" value="VISA" id="PAYMENT METHOD_1">
+            VISA</label>
+          
+          <span class="radioRequiredMsg"></span></span></td>
+      </tr>
+      <tr>
+        <th scope="row">CREDIT CARD NUMBER:</th>
+        <td><span id="sprytextfield8">
+          <label for="CREDIT CARD NUMBER"></label>
+          <input name="CREDIT CARD NUMBER" type="text" required id="CREDIT CARD NUMBER" autocomplete="off">
+          <span class="textfieldRequiredMsg"></span></span></td>
+      </tr>
+      <tr>
+        <th scope="row">CVV:</th>
+        <td><input name="CVV" type="text" required id="CVV" size="10" maxlength="4"></td>
+      </tr>
+      <tr>
+        <th scope="row">COMMENTS:</th>
+        <td><label for="Comments"></label>
+          <textarea name="Comments" id="Comments" cols="45" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td><span id="spryselect1">
+          <label for="QUANTITY"></label>
+          <span class="selectRequiredMsg"></span></span><span id="sprytextfield9">
+          <label for="CVV"></label>
+          <span class="textfieldRequiredMsg"></span></span>
+          <input type="submit" name="submit" id="submit" value="Submit"></td>
+        </tr>
+      </tbody></table>
+   </form>
+  <script type="text/javascript">
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1");
+var spryselect2 = new Spry.Widget.ValidationSelect("spryselect2");
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {validateOn:["blur"]});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "none", {validateOn:["blur"]});
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "none", {validateOn:["blur"]});
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5");
+var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6");
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7", "none", {validateOn:["blur"]});
+var spryradio1 = new Spry.Widget.ValidationRadio("spryradio1", {validateOn:["blur"]});
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8", "none", {validateOn:["blur"]});
+var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9", "none", {validateOn:["blur"]});
+var sprytextfield10 = new Spry.Widget.ValidationTextField("sprytextfield10", "none", {validateOn:["blur"]});
+  </script>
+  
+</div>
+<div id="footer">
+	<span class="floatleft"><a href="faq.html">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	<a href="services.html">Services</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="feedback.html">Feedback</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</span>
+	<span class="floatright">© 2017 Fish~Tastic. All Rights Reserved. </span>
+	</div>
+</body>
+</html>
